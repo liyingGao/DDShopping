@@ -1,0 +1,65 @@
+html{
+    font-family: "Microsoft Yahei";
+}
+#search-bar{
+    width:100%;
+    height: 40px;
+    background-color:#39b45d;
+    position: fixed;
+    z-index: 1001;
+    margin: 0px;
+}
+#logo{
+    width:100xp;
+    margin: 0px;
+    margin-left: 10%;
+    line-height: 40px;
+	color:white;
+	margin-right:20px;
+}
+#wgt-banner{
+    height: 100px;
+    width:100%;
+}
+#userbar{
+    position: absolute;
+    right: 13px;
+    top: 0;
+    z-index: 999;
+    height: 55px;
+    font-family: arial;
+    vertical-align: middle;
+}
+#tail{
+    overflow: hidden;
+    height:200px;
+    width:100%;
+    line-height: 200px;
+    background-color: transparent;   
+}
+#iqian-order-title{
+    width:100%;
+    height: 48px;
+    line-height: 48px;
+    background: #fafafa;
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+
+}
+#iqian-description{
+    position: relative;
+    
+}
+#ihou-order-title{
+    width:100%;
+    height: 100px;
+    line-height: 48px;
+    background: #fafafa;
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+
+}
+#ihou-description{
+    position: relative;
+    
+}

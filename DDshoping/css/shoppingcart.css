@@ -1,0 +1,337 @@
+html{
+    font-family: "Microsoft Yahei";
+}
+#search-bar{
+    width:100%;
+    height: 40px;
+    background-color:#39b45d;
+    position: fixed;
+    z-index: 1001;
+    margin: 0px;
+}
+#logo{
+    width:100xp;
+    margin: 0px;
+    margin-left: 10%;
+    line-height: 40px;
+}
+#wgt-banner{
+    height: 100px;
+    width:100%;
+}
+#userbar{
+    position: absolute;
+    right: 13px;
+    top: 0;
+    z-index: 999;
+    height: 55px;
+    font-family: arial;
+    vertical-align: middle;
+}
+.aside-list{
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top:0px;
+    vertical-align: middle;
+}
+.aside-list ul{
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.aside-list li{
+    border-left-color: #6fbe4b;
+    float: left;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 7px;
+    border-left: 0;
+    margin-left: 0;
+    list-style: none;
+}
+.aside-list li a{
+    font-size: 12px;
+    font-family: arial;
+    text-decoration: underline;
+    color: #fff;
+    cursor: auto;
+    text-decoration-color: #fff;
+}
+#body-userandorder{
+    margin:0 auto;
+    width:80%;
+    
+}
+#ihome-user{
+    position: relative;
+    
+}
+#ihome-user a{
+
+}
+#user_name{
+    position: absolute;
+    top:0px;
+    left:300px;
+    line-height: 20px;
+    height: 20px;
+}
+#user_location{
+    position: absolute;
+    top:40px;
+    left:300px;
+    line-height: 20px;
+    height: 20px;
+}
+#ihome-order{
+    margin-top:40px;
+}
+#itemheader{
+    width:100%;
+    height: 30px;
+    line-height: 30px;
+    background: #f1f1f1;
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+    position:relative;
+}
+#itemheader p{
+    margin-top:0px;
+}
+#itemheader .iteminfo{
+    position: absolute;
+    left:240px;
+    top:0px;
+}
+#itemheader .itemcount{
+    position: absolute;
+    left:535px;
+    top:0px;
+}
+#itemheader .itemuintprize{
+    position: absolute;
+    left:760px;
+    top:0px;
+}
+#itemheader .itemtotalprize{
+    position: absolute;
+    left:930px;
+    top:0px;
+}
+#itemheader .itemstatus{
+    position: absolute;
+    left:873px;
+    top:0px;
+}
+#ihome-orderlist{
+    float:left;
+    left: 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 20;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding: 0 0 0 0px;
+    display: block;
+    border: 1px solid #dcdcdc;
+    border-width: 0 1px 1px;
+    
+}
+.amount-fn-updatecount{
+    border: 1px solid #dcdcdc;
+    height: 28px;
+    width: 94px;
+    line-height: 28px;
+    font-size: 14px;
+    margin: 5px auto;
+    overflow: hidden;
+    display: block;
+    text-align: center;
+}
+.amount-fn-updatecount a{
+    display: block;
+    color:black;
+    float: left;
+    height: 28px;
+    width: 28px;
+    background-color: #f4f4f4;
+}
+input{
+    margin: 0;
+    -webkit-appearance: textfield;
+    
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+}
+.amount-fn-updatecount input{
+    width: 36px;
+    height: 28px;
+    float: left;
+    padding: 0;
+    text-align: center;
+    border: 1px solid #dcdcdc;
+    border-width: 0 1px;
+    background-color: #fff;
+    font-weight: bold;
+}
+.orderitem{
+    padding-top: 30px;
+    height: 100px;
+    width:100%;
+    position: relative;
+    background-color:#f0f0f0;
+    border: 1px solid #dcdcdc;
+    border-width: 0 0px 1px;
+    position: relative;
+
+}
+#ihome-order-title{
+    width:100%;
+    height: 48px;
+    line-height: 48px;
+    background: #fafafa;
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+
+}
+.orderitem-img{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    left:20px;
+    top:15px;
+
+}
+#ihome-order-title .title{
+    margin: 15px 0 15px 10px;
+    padding: 0 0 0 10px;
+    font-size: 16px;
+    color: #323232;
+    line-height: 18px;
+    border-left: 2px solid #ff2832;
+    display: block;
+}
+#tail{
+    overflow: hidden;
+    height:200px;
+    width:100%;
+    line-height: 200px;
+    background-color: transparent;   
+}
+.booktitle{
+    position: absolute;
+    left: 240px;
+    top: 45px;
+    line-height: 20px;
+    margin:0 0;
+    height: 20px;
+    width: 300px;
+    font-size: 10px;
+    color:rgb(44, 44, 255);
+    overflow: hidden;
+}
+.bookaccount{
+    position: absolute;
+    left: 505px;
+    top: 10px;
+    line-height: 32px;
+    
+    margin-top:0px;
+    height: 35px;
+    width: 96px;
+    font-size: 30px;
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    color:rgb(255, 44, 44);
+    overflow: hidden;
+}
+.bookstatus{
+    position: absolute;
+    left: 880px;
+    top: 45px;
+    line-height: 20px;
+    margin-top:0px;
+    height: 20px;
+    width: 60px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Microsoft Yahei",'Hiragino Sans GB',"Simsun","Arial";
+    color:rgb(96, 96, 96);
+    overflow: hidden;
+}
+.bookuintprice{
+    position: absolute;
+    left: 760px;
+    top: 45px;
+    line-height: 20px;
+    margin-top:0px;
+    height: 20px;
+    width: 60px;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Microsoft Yahei",'Hiragino Sans GB',"Simsun","Arial";
+    color:rgb(96, 96, 96);
+    overflow: hidden;
+}
+.booktotalprice{
+    position: absolute;
+    left: 920px;
+    top: 40px;
+    line-height: 30px;
+    margin-top:0px;
+    height: 30px;
+    width: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: "Microsoft Yahei",'Hiragino Sans GB',"Simsun","Arial";
+    color:rgb(255, 0, 0);
+    overflow: hidden;
+}
+#acountandpurchase{
+    height: 200px;
+    width:100%;
+    
+}
+#checkout_btn{
+    
+    float: right;
+    display: block;
+    width: 116px;
+    height: 38px;
+    font: bold 18px/38px "Microsoft Yahei";
+    color: #fff;
+    background-color: #ff2832;
+    border-radius: 2px;
+    text-align: center;
+    margin-top: 14px;
+    text-decoration: none;
+}
+#checkout_btn:hover{
+    background-color:#fc0511;
+}
+#subtotal p{
+    font-size:10px;
+    float:right;
+    margin-right: 20px;
+}
+#subtotal p .cartsum{
+    width: 114px;
+    text-align: right;
+    padding: 0 8px 0 0;
+    display: inline-block;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    background: transparent;
+    list-style: none;
+}
+#subtotal p #payAmount{
+    color:red;
+    font-size:25px;
+}

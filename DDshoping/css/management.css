@@ -1,0 +1,633 @@
+html{
+    font-family: "Microsoft Yahei";
+}
+#search-bar{
+    width:100%;
+    height: 40px;
+    background-color:#39b45d;
+    position: fixed;
+    z-index: 1001;
+    margin: 0px;
+}
+#logo{
+    width:100xp;
+    margin: 0px;
+    margin-left: 10%;
+    line-height: 40px;
+	color:white;
+	margin-right:20px;
+}
+#wgt-banner{
+    height: 100px;
+    width:100%;
+}
+#userbar{
+    position: absolute;
+    right: 13px;
+    top: 0;
+    z-index: 999;
+    height: 55px;
+    font-family: arial;
+    vertical-align: middle;
+}
+.aside-list{
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top:0px;
+    vertical-align: middle;
+}
+.aside-list ul{
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.aside-list li{
+    border-left-color: #6fbe4b;
+    float: left;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 7px;
+    border-left: 0;
+    margin-left: 0;
+    list-style: none;
+}
+.aside-list li a{
+    font-size: 12px;
+    font-family: arial;
+    text-decoration: underline;
+    color: #fff;
+    cursor: auto;
+    text-decoration-color: #fff;
+}
+#body-userandorder{
+    margin:0 auto;
+    width:80%;
+    
+}
+#iname-order-title{
+    width:100%;
+    height: 48px;
+    line-height: 48px;
+    background: #fafafa;
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+
+}
+#ihome-user{
+    position: relative;
+    
+}
+
+
+#user_updatecustumor{
+    position: absolute;
+    top:20px;
+    left:100px;
+    line-height: 20px;
+    height: 20px;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    background: #ff2832;
+    border-radius: 3px;
+    display: inline-block;
+    zoom: 1;
+    color: #fff;
+    text-align: center;
+    font-family: 'Microsoft Yahei';
+    font-size: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#user_updatebook{
+    position: absolute;
+    top:20px;
+    left:410px;
+    line-height: 20px;
+    height: 20px;
+    width: 100px;
+    height: 28px;
+    line-height: 28px;
+    background: #ff2832;
+    border-radius: 3px;
+    display: inline-block;
+    zoom: 1;
+    color: #fff;
+    text-align: center;
+    font-family: 'Microsoft Yahei';
+    font-size: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#user_updateorder{
+    position: absolute;
+    top:20px;
+    left:800px;
+    line-height: 20px;
+    height: 20px;
+    width:  100px;
+    height: 28px;
+    line-height: 28px;
+    background: #ff2832;
+    border-radius: 3px;
+    display: inline-block;
+    zoom: 1;
+    color: #fff;
+    text-align: center;
+    font-family: 'Microsoft Yahei';
+    font-size: 14px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+#user_updatecustumor:hover{
+    background: #ee0f1b;
+}
+#user_updatebook:hover{
+    background: #ee0f1b;
+}
+#user_updateorder:hover{
+    background: #ee0f1b;
+}
+
+
+.ihome-x{
+    
+    margin-top:40px;
+}
+.ihome-x-list{
+    float:left;
+    left: 0;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 20;
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+    padding: 0 0 0 0px;
+    display: block;
+    border: 1px solid #dcdcdc;
+    border-width: 0 1px 1px;
+    
+}
+.custumoritem{
+    padding-top: 30px;
+    height: 20px;
+    width:100%;
+    position: relative;
+    background-color:#f0f0f0;
+    border: 1px solid #dcdcdc;
+    border-width: 0 0px 1px;
+    position: relative;
+
+}
+.bookitem{
+    padding-top: 30px;
+    height: 20px;
+    width:100%;
+    position: relative;
+    background-color:#f0f0f0;
+    border: 1px solid #dcdcdc;
+    border-width: 0 0px 1px;
+    position: relative;
+
+}
+.orderitem{
+    padding-top: 30px;
+    height: 20px;
+    width:100%;
+    position: relative;
+    background-color:#f0f0f0;
+    border: 1px solid #dcdcdc;
+    border-width: 0 0px 1px;
+    position: relative;
+
+}
+.ihome-x-title{
+    width:100%;
+    height: 48px;
+    line-height: 48px;
+    background: #fafafa;
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+
+}
+.item-x-header{
+    width:100%;
+    height: 30px;
+    line-height: 30px;
+    background: #f1f1f1;
+    border: 1px solid #dcdcdc;
+    overflow: hidden;
+    position:relative;
+}
+#item-custumor-header p{
+    margin-top:0px;
+    width:100px;
+    
+}
+#item-custumor-header .custumor-header-userid{
+    position: absolute;
+    left:50px;
+    top:0px;
+}
+#item-custumor-header .custumor-header-username{
+    position: absolute;
+    left:200px;
+    top:0px;
+}
+#item-custumor-header .custumor-header-userpwd{
+    position: absolute;
+    left:350px;
+    top:0px;
+}
+#item-custumor-header .custumor-header-email{
+    position: absolute;
+    left:500px;
+    top:0px;
+}
+#item-custumor-header .custumor-header-phone{
+    position: absolute;
+    left:650px;
+    top:0px;
+}
+#item-custumor-header .custumor-header-address{
+    position: absolute;
+    left:800px;
+    top:0px;
+}
+#item-custumor-header .custumor-header-control{
+    position: absolute;
+    left:950px;
+    top:0px;
+}
+
+#item-book-header p{
+    margin-top:0px;
+    width:100px;
+}
+#item-book-header .book-header-bookid{
+    position: absolute;
+    left:50px;
+    top:0px;
+}
+#item-book-header .book-header-bookname{
+    position: absolute;
+    left:160px;
+    top:0px;
+}
+#item-book-header .book-header-type{
+    position: absolute;
+    left:320px;
+    top:0px;
+}
+#item-book-header .book-header-date{
+    position: absolute;
+    left:460px;
+    top:0px;
+}
+#item-book-header .book-header-price{
+    position: absolute;
+    left:580px;
+    top:0px;
+}
+#item-book-header .book-header-introduction{
+    position: absolute;
+    left:690px;
+    top:0px;
+}
+#item-book-header .book-header-count{
+    position: absolute;
+    left:800px;
+    top:0px;
+}
+#item-book-header .book-header-author{
+    position: absolute;
+    left:890px;
+    top:0px;
+}
+#item-book-header .book-header-control{
+    position: absolute;
+    left:1000px;
+    top:0px;
+}
+
+#item-order-header p{
+    margin-top:0px;
+    width:100px;
+}
+#item-order-header .order-header-orderid{
+    position: absolute;
+    left:50px;
+    top:0px;
+}
+#item-order-header .order-header-orderowner{
+    position: absolute;
+    left:160px;
+    top:0px;
+}
+#item-order-header .order-header-bookname{
+    position: absolute;
+    left:280px;
+    top:0px;
+}
+#item-order-header .order-header-status{
+    position: absolute;
+    left:400px;
+    top:0px;
+}
+#item-order-header .order-header-count{
+    position: absolute;
+    left:510px;
+    top:0px;
+}
+#item-order-header .order-header-time{
+    position: absolute;
+    left:590px;
+    top:0px;
+}
+#item-order-header .order-header-phone{
+    position: absolute;
+    left:720px;
+    top:0px;
+}
+#item-order-header .order-header-address{
+    position: absolute;
+    left:870px;
+    top:0px;
+}
+#item-order-header .order-header-control{
+    position: absolute;
+    left:1000px;
+    top:0px;
+}
+
+#iname-order-title .title{
+    margin: 15px 0 15px 10px;
+    padding: 0 0 0 10px;
+    font-size: 16px;
+    color: #323232;
+    line-height: 18px;
+    border-left: 2px solid #ff2832;
+    display: block;
+}
+#ihome-order-title .title{
+    margin: 15px 0 15px 10px;
+    padding: 0 0 0 10px;
+    font-size: 16px;
+    color: #323232;
+    line-height: 18px;
+    border-left: 2px solid #ff2832;
+    display: block;
+}
+#tail{
+    overflow: hidden;
+    height:200px;
+    width:100%;
+    line-height: 200px;
+    background-color: transparent;   
+}
+.custumoritem p input{
+    width:100px;
+}
+.custumoritem p{
+    position: absolute;
+    top: 25px;
+    line-height: 20px;
+    margin-top:0px;
+    height: 80px;
+    width: 100px;
+}
+.custumoritem p input{
+    text-align: center;
+}
+.custumor-item-userid{
+    left: 65px;
+}
+.custumor-item-username{
+    left: 175px;
+}
+.custumor-item-userpwd{
+    left: 335px;
+}
+.custumor-item-email{
+    left: 485px;
+}
+.custumor-item-phone{
+    left: 635px;
+}
+.custumor-item-address{
+    left: 785px;
+}
+.custumor-item-control{
+    left: 940px;
+}
+.custumor-item-control-update{
+    float: left;
+    line-height: 20px;
+    height: 20px;
+    width:  40px;
+    background: #ff2832;
+    border-radius: 3px;
+    display: inline-block;
+    zoom: 1;
+    color: #fff;
+    text-align: center;
+    font-family: 'Microsoft Yahei';
+    font-size: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.custumor-item-control-delete{
+    float: right;
+    line-height: 20px;
+    height: 20px;
+    width:  40px;
+    background: #ff2832;
+    border-radius: 3px;
+    display: inline-block;
+    zoom: 1;
+    color: #fff;
+    text-align: center;
+    font-family: 'Microsoft Yahei';
+    font-size: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.custumor-item-control span:hover{
+        background: #ee0f1b;
+}
+.bookitem p input{
+    width:100%;
+    text-align: center;
+}
+.bookitem p{
+    position: absolute;
+    top: 25px;
+    line-height: 20px;
+    margin-top:0px;
+    height: 80px;
+    
+}
+.bookitem .book-item-bookid{
+    width: 80px;
+    left: 65px;
+}
+.bookitem .book-item-bookname{
+    width: 100px;
+    left: 135px;
+}
+.bookitem .book-item-type{
+    width: 100px;
+    left: 300px;
+}
+.bookitem .book-item-date{
+    width: 80px;
+    left: 452px;
+}
+.bookitem .book-item-price{
+    width: 40px;
+    left: 573px;
+}
+
+.bookitem .book-item-introduction{
+    width: 120px;
+    left: 645px;
+}
+.bookitem .book-item-count{
+    width: 30px;
+    left: 800px;
+}
+.bookitem .book-item-author{
+    width: 50px;
+    left: 880px;
+}
+.bookitem .book-item-control{
+    width: 100px;
+    left: 970px;
+}
+
+.book-item-control-update{
+    float: left;
+    line-height: 20px;
+    height: 20px;
+    width:  40px;
+    background: #ff2832;
+    border-radius: 3px;
+    display: inline-block;
+    zoom: 1;
+    color: #fff;
+    text-align: center;
+    font-family: 'Microsoft Yahei';
+    font-size: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.book-item-control-delete{
+    float: right;
+    line-height: 20px;
+    height: 20px;
+    width:  40px;
+    background: #ff2832;
+    border-radius: 3px;
+    display: inline-block;
+    zoom: 1;
+    color: #fff;
+    text-align: center;
+    font-family: 'Microsoft Yahei';
+    font-size: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.book-item-control span:hover{
+        background: #ee0f1b;
+}
+
+.orderitem p input{
+    width:100%;
+    text-align: center;
+}
+.orderitem p{
+    position: absolute;
+    top: 25px;
+    line-height: 20px;
+    margin-top:0px;
+    height: 80px;
+    
+}
+.orderitem .order-item-orderid{
+    width: 80px;
+    left: 65px;
+}
+.orderitem .order-item-orderowner{
+    width: 80px;
+    left: 142px;
+}
+.orderitem .order-item-bookname{
+    width: 80px;
+    left: 255px;
+}
+.orderitem .order-item-status{
+    width: 80px;
+    left: 390px;
+}
+.orderitem .order-item-count{
+    width: 40px;
+    left: 503px;
+}
+
+.orderitem .order-item-time{
+    width: 100px;
+    left: 575px;
+}
+.orderitem .order-item-phone{
+    width: 100px;
+    left: 700px;
+}
+.orderitem .order-item-address{
+    width: 120px;
+    left: 825px;
+}
+.orderitem .order-item-control{
+    width: 100px;
+    left: 970px;
+}
+
+.order-item-control-update{
+    float: left;
+    line-height: 20px;
+    height: 20px;
+    width:  40px;
+    background: #ff2832;
+    border-radius: 3px;
+    display: inline-block;
+    zoom: 1;
+    color: #fff;
+    text-align: center;
+    font-family: 'Microsoft Yahei';
+    font-size: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.order-item-control-delete{
+    float: right;
+    line-height: 20px;
+    height: 20px;
+    width:  40px;
+    background: #ff2832;
+    border-radius: 3px;
+    display: inline-block;
+    zoom: 1;
+    color: #fff;
+    text-align: center;
+    font-family: 'Microsoft Yahei';
+    font-size: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.book-item-control span:hover{
+        background: #ee0f1b;
+}

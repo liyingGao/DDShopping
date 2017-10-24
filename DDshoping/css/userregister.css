@@ -1,0 +1,305 @@
+html{
+    font-family: "Microsoft Yahei";
+}
+#search-bar{
+    width:100%;
+    height: 40px;
+    background-color:#39b45d;
+    position: fixed;
+    z-index: 1001;
+    margin: 0px;
+}
+#logo{
+    width:100xp;
+    margin: 0px;
+    margin-left: 10%;
+    line-height: 40px;
+	color:white;
+	margin-right:20px;
+}
+#search-form{
+    border: 1px solid rgb(204, 204, 204);
+    font: 14px/18px 'Microsoft YaHei', SimHei, arial, 宋体;
+    vertical-align: middle;
+    display: inline-block;
+    border-style: none;
+    clear:none;
+    margin-top:5px;
+}
+#search-textbox{
+    height: 31px;
+    font: 14px/18px "Microsoft YaHei",SimHei,arial,"宋体";
+
+}
+#search-btn{
+    height: 30px;
+    width:70px;
+    text-align: center;
+    outline: 0;
+    font: 12px/28px "Microsoft YaHei",SimHei,arial,"宋体";
+    color: #595959;
+    border: 1px solid #ccc;
+    background: -webkit-linear-gradient(top,#fcfcfc,#f1f1f1);
+}
+#userbar{
+    position: absolute;
+    right: 13px;
+    top: 0;
+    z-index: 999;
+    height: 55px;
+    font-family: arial;
+    vertical-align: middle;
+}
+.aside-list{
+    list-style: none;
+    margin-bottom: 0px;
+    margin-top:0px;
+    vertical-align: middle;
+}
+.aside-list ul{
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    -webkit-padding-start: 40px;
+}
+.aside-list li{
+    border-left-color: #6fbe4b;
+    float: left;
+    height: 55px;
+    line-height: 55px;
+    padding: 0 7px;
+    border-left: 0;
+    margin-left: 0;
+    list-style: none;
+}
+.aside-list li a{
+    font-size: 12px;
+    font-family: arial;
+    text-decoration: underline;
+    color: #fff;
+    cursor: auto;
+    text-decoration-color: #fff;
+}
+#wgt-banner{
+    height: 100px;
+    width:100%;
+}
+#body-register{
+    
+    width:80%;
+    margin: 0 auto;
+}
+#mainlogo{
+    float:left;
+    height:auto;
+    width:60%;
+}
+
+#mainlogo img{
+    
+    width:100%;
+    display: block;
+}
+#registerbody{
+
+    background: #fff;
+    padding: 15px 25px 15px 15px;
+
+    width: 320px;
+    color: #6e6e6e;
+    margin: 40px auto 0;
+    position: relative;
+    border: 1px solid #eef2f4;
+    box-shadow: 0px 1px 2px #eee;
+    height:500px;
+    overflow: hidden;
+}
+#registercorewrap{
+    position: absolute;
+    display: block;
+    width: 311px;
+    top:0px;
+    left:20px;
+
+}
+#registercorewrap p{
+    font-size: 18px;
+    color: #3c3c3c;
+    margin-top: 5px;
+    margin: 0;
+    padding: 0;
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+}
+input, textarea, keygen, select, button {
+    text-rendering: auto;
+    color: initial;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    display: inline-block;
+    text-align: start;
+    margin: 0em 0em 0em 0em;
+    font: 13.3333px Arial;
+}
+input{
+    -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    -webkit-user-select: text;
+    cursor: auto;
+}
+.registertextbox input{
+    width: 270px;
+}
+.registertextbox .user{
+    float: left;
+    height: 34px;
+    line-height: 34px;
+    border: 0;
+    color: #333;
+    font-family: "Microsoft Yahei";
+    padding: 0;
+    border:none;
+}
+#register_username span{
+    width: 30px;
+    margin-right: 10px;
+    height: 36px;
+    float: left;
+    background: url("../img/icon_20150706.png") 10px -110px no-repeat;
+}
+#register_userpwd span{
+    width: 30px;
+    margin-right: 10px;
+    height: 36px;
+    float: left;
+    background: url("../img/icon_20150706.png") 10px -110px no-repeat;
+    background-position: 10px -150px;
+}
+#register_repeat_userpwd span{
+    width: 30px;
+    margin-right: 10px;
+    height: 36px;
+    float: left;
+    background: url("../img/icon_20150706.png") 10px -110px no-repeat;
+    background-position: 10px -150px;
+}
+#register_email span{
+    width: 30px;
+    margin-right: 10px;
+    height: 36px;
+    float: left;
+    background: url("../img/icon_20150706.png") 10px -110px no-repeat;
+    background-position: 10px -190px;   
+}
+#register_telephone span{
+    width: 30px;
+    margin-right: 10px;
+    height: 36px;
+    float: left;
+    background: url("../img/phone.png") 5px 5px no-repeat;
+}
+#register_address span{
+    width: 30px;
+    margin-right: 10px;
+    height: 36px;
+    float: left;
+    background: url("../img/address.png") 5px 5px no-repeat;
+}
+#register_username{
+    position:absolute;
+    left:20px;
+    top:70px;
+    height: 36px;
+    border: 1px solid #e6e6e6;
+    width: 310px;
+    border-radius: 2px;
+}
+#register_userpwd{
+    position:absolute;
+    left:20px;
+    top:130px;
+    height: 36px;
+    border: 1px solid #e6e6e6;
+    width: 310px;
+    border-radius: 2px;
+}
+#register_repeat_userpwd{
+    position:absolute;
+    left:20px;
+    top:190px;
+    height: 36px;
+    border: 1px solid #e6e6e6;
+    width: 310px;
+    border-radius: 2px;
+}
+#register_email{
+    position:absolute;
+    left:20px;
+    top:250px;
+    height: 36px;
+    border: 1px solid #e6e6e6;
+    width: 310px;
+    border-radius: 2px;
+}
+#register_telephone{
+    position:absolute;
+    left:20px;
+    top:310px;
+    height: 36px;
+    border: 1px solid #e6e6e6;
+    width: 310px;
+    border-radius: 2px;
+}
+#register_address{
+    position:absolute;
+    left:20px;
+    top:370px;
+    height: 36px;
+    border: 1px solid #e6e6e6;
+    width: 310px;
+    border-radius: 2px;
+}
+p {
+    display: block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+}
+.user{
+    border:none;
+    height: 100%;
+}
+#registerbody .btn{
+    position: absolute;
+    top:450px;
+    left:20px;
+    width:310px;
+}
+#registerbody .btn #submintbtn:hover{
+    background-color: #d31626;
+}
+#registerbody .btn #submintbtn{
+    width: 100%;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    height: 44px;
+    text-align: center;
+    font: normal 20px/44px "Microsoft Yahei";
+    background-color: #ff2832;
+    cursor: pointer;
+}
+
